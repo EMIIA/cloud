@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.608" height="44" viewBox="0 0 12.067 11.642" fill="#fff">
+
+
+
+<path d="M4.957 7.974a.28.28 0 0 1-.146-.11c-.058-.083-.054.043-.055-1.961 0-1.825 0-1.847.02-1.9a.297.297 0 0 1 .15-.164.23.23 0 0 1 .127-.03c.107 0-.036-.078 1.408.758l.674.39c1.177.678 1.194.688 1.24.735.063.064.093.141.086.226a.326.326 0 0 1-.088.197 7.144 7.144 0 0 1-.44.266 313.083 313.083 0 0 0-.887.513l-.451.26c-.093.054-.209.12-.258.15l-.61.351-.36.208a1.993 1.993 0 0 1-.222.115.307.307 0 0 1-.188-.004zm.571-.614l.973-.56.877-.506c.526-.302.584-.338.594-.367.02-.055.002-.073-.158-.165l-2.21-1.28c-.364-.21-.395-.228-.42-.228-.012 0-.034.011-.047.025l-.024.024v1.592c0 1.108.003 1.599.01 1.612.014.026.047.04.078.033.014-.003.16-.084.327-.18z">
+<animate dur="2s" values="white; #d7d7d7; #d7d7d7; white" keyTimes="0; 0.5; 0.7; 1" attributeName="fill" repeatCount="indefinite"/></path>
+
+
+
+<path d="M5.126 7.578A.24.24 0 0 1 5 7.491c-.05-.068-.047.033-.047-1.584 0-1.474 0-1.492.017-1.534a.246.246 0 0 1 .129-.133.209.209 0 0 1 .11-.025c.091 0-.032-.062 1.21.612.24.132.501.273.579.315 1.011.548 1.025.556 1.066.594a.22.22 0 0 1 .073.182.256.256 0 0 1-.076.16c-.016.014-.185.11-.378.215a273.534 273.534 0 0 0-1.15.624l-.221.12a3097.58 3097.58 0 0 1-.834.452 1.78 1.78 0 0 1-.19.093.283.283 0 0 1-.162-.003zm.49-.495l.836-.453c.317-.17.656-.355.754-.408.452-.244.502-.273.51-.296.017-.044.002-.06-.135-.134l-1.9-1.032c-.313-.17-.34-.185-.36-.185-.01 0-.03.01-.04.02l-.022.02V5.9c0 .895.003 1.291.01 1.302.01.02.04.032.066.026.012-.002.138-.067.282-.145z">
+<animate dur="2s" values="white; #d7d7d7; #d7d7d7; white" keyTimes="0; 0.5; 0.7; 1" attributeName="fill" repeatCount="indefinite"/></path>
+
+
+
+<path style="line-height:normal;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000;text-transform:none;text-orientation:mixed;white-space:normal;shape-padding:0;isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" d="M6.025.484A5.421 5.421 0 0 0 .61 5.9a5.42 5.42 0 0 0 5.414 5.414A5.421 5.421 0 0 0 11.44 5.9 5.423 5.423 0 0 0 6.025.484zm0 .744A4.667 4.667 0 0 1 10.697 5.9a4.665 4.665 0 0 1-4.672 4.67 4.663 4.663 0 0 1-4.67-4.67 4.665 4.665 0 0 1 4.67-4.672z" color="#000" font-weight="400" font-family="sans-serif" overflow="visible" fill-rule="evenodd" paint-order="stroke fill markers">
+<animate dur="3s" values="white; #d7d7d7; #d7d7d7; white" keyTimes="0; 0.5; 0.7; 1" attributeName="fill" repeatCount="indefinite"/></path>
+
+
+</svg>

@@ -1,0 +1,17 @@
+body {
+
+
+  font-family: Montserrat, montserrat;  
+  font: 12px/20px Montserrat, montserrat;
+  color: #383838;
+  
+
+
+
+}
+
+#chartContainer {
+  margin-top: 30px;
+  width: 100%;
+  height: 500px;
+}
