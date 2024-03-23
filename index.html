@@ -161,18 +161,18 @@
 .arcDashGap(() => Math.random())
   .arcDashAnimateTime(() => Math.random() * 4000 + 500)
     .arcLabel('label1')
-    .arcColor(d => [`rgba(61, 133, 198, ${OPACITY / 1})`, `rgba(61, 133, 198, ${OPACITY / 3.0})`, `rgba(61, 133, 198, ${OPACITY / 0.0})`].reverse())
+    .arcColor(d => [`rgba(61, 133, 198, ${OPACITY / 0.1})`, `rgba(61, 133, 198, ${OPACITY / 0.1})`, `rgba(61, 133, 198, ${OPACITY / 0.1})`].reverse())
     
     .arcDashLength(3.5)
     .arcDashGap(0.003)
     .arcDashAnimateTime(30000)
   .onArcHover(hoverArc => globe
   .arcColor(d => {
-  const op = !hoverArc ? OPACITY : d === hoverArc ? 0.0 : OPACITY / 4;
-return [`rgba(61, 133, 198, ${op / 0})`, `rgba(61, 133, 198, ${op / 0.0})`, `rgba(61, 133, 198, ${op / 1.1})`].reverse();
+  const op = !hoverArc ? OPACITY : d === hoverArc ? 0.0 : OPACITY / 0.0;
+return [`rgba(61, 133, 198, ${op / 0.0})`, `rgba(61, 133, 198, ${op / 0.0})`, `rgba(61, 133, 198, ${op / 0.1})`].reverse();
   }) 
  )
-    .arcsTransitionDuration(speed / N * 0.0)
+    .arcsTransitionDuration(speed / N * 0.9)
     .pointColor(() => '#3d85c6')
     .pointAltitude(0)
     .pointRadius(0.5)
