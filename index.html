@@ -175,7 +175,7 @@ return [`rgba(61, 133, 198, ${op / 0.0})`, `rgba(61, 133, 198, ${op / 0.0})`, `r
     .arcsTransitionDuration(speed / N * 0.9)
     .pointColor(() => '#3d85c6')
     .pointAltitude(0)
-    .pointRadius(0.5)
+    .pointRadius(0.8)
     .pointsMerge(true)
    
     (document.getElementById('globeViz'))
@@ -218,7 +218,7 @@ return [`rgba(61, 133, 198, ${op / 0.0})`, `rgba(61, 133, 198, ${op / 0.0})`, `r
           
           if (i + 1 === N) {
             root = endPoint
-            moveToNewPointOfView = () => globe.pointOfView({ lat: endPoint.latlng[0] - 10, lng: endPoint.latlng[1], altitude: 2.6 }, speed)
+            moveToNewPointOfView = () => globe.pointOfView({ lat: endPoint.latlng[0] - 10, lng: endPoint.latlng[1], altitude: 3 }, speed)
             moveToNewPointOfView();
           }
           else {
@@ -282,11 +282,7 @@ return [`rgba(61, 133, 198, ${op / 0.0})`, `rgba(61, 133, 198, ${op / 0.0})`, `r
     
     
     
-    useEffect(() => {
-    globeEl.current.controls().enableZoom = false;
-    globeEl.current.controls().autoRotate = true;
-    globeEl.current.controls().autoRotateSpeed = 0.7;
-  }, []);
+  
     
   </script>
 </body>
