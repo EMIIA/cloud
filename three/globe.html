@@ -76,7 +76,7 @@ function main() {
 	{
 
 		const loader = new THREE.TextureLoader();
-		const texture = loader.load( 'resources/images/world.jpg', render );
+		const texture = loader.load( './world.jpg', render );
 		texture.colorSpace = THREE.SRGBColorSpace;
 		const geometry = new THREE.SphereGeometry( 1, 64, 32 );
 		const material = new THREE.MeshBasicMaterial( { map: texture } );
